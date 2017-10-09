@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>战帖列表</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="all">
+        全部
+      </ion-segment-button>
+      <ion-segment-button value="new">
+        最新
+      </ion-segment-button>
+      <ion-segment-button value="friends">
+        好友参加
+      </ion-segment-button>
+      <ion-segment-button value="meLaunch">
+        我发起的
+      </ion-segment-button>
+    </ion-segment>   
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+<ion-content>
+  <div [ngSwitch]="pet">
+    <ion-list *ngSwitchCase="'all'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/images/defuser.jpg">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+        <p>咕噜...</p>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/images/defuser.jpg">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+        <p>咕噜...</p>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/images/defuser.jpg">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+        <p>咕噜...</p>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'new'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-kitten-1.jpg">
+        </ion-thumbnail>
+        <h2>Luna</h2>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

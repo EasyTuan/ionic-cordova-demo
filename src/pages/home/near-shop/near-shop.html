@@ -1,0 +1,47 @@
+<ion-header no-border>
+
+  <ion-navbar>
+    <ion-searchbar placeholder="输入店铺名称"></ion-searchbar>
+    <ion-buttons right>
+      <button ion-button icon-only>
+        <span class="iconfont icon-map"></span>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content margin-top>
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="下拉刷新"
+      refreshingSpinner="circles"
+      refreshingText="正在加载...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list>
+    <ion-item *ngFor="let items of items;let i = index;">
+      <ion-avatar item-start>
+        <img src="../../../assets/images/defuser.jpg">
+      </ion-avatar>
+      <h2>小明文具 {{i+1}}<button ion-button float-right outline>查看对战</button></h2>
+      <p class="font12">
+        <span class="scorewarp1">
+          <i style="width: calc(4.2 * 13px);"></i>
+        </span>
+        &nbsp;4.2分
+        <span float-right >距离6457m</span>
+      </p>
+    </ion-item>
+  </ion-list>
+  
+  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content
+    loadingSpinner="bubbles"
+    loadingText="正在加载..."></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+  
+</ion-content>

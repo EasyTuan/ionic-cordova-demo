@@ -1,0 +1,57 @@
+//公共sass
+@import '../assets/fonts/iconfont';
+
+//修改自带样式
+.content-ios {
+    color: color($colors,dark);
+    background-color: color($colors,bgColor);
+}
+
+.toolbar-background-ios {
+    background-color: #fff;
+}
+
+ion-app.ios [margin-top], ion-app.ios [margin-top] .scroll-content {
+    margin-top: 10px;
+}
+
+//修改自带样式结束
+
+
+
+//自定义UI样式
+.bar-buttons .iconfont{
+    font-size:2.4rem;
+}
+
+.bgWhite{
+    background-color: #fff;
+}
+
+.font12{
+    font-size: 1.2rem!important;
+}
+
+
+/*分数星星*/
+
+.scorewarp1 {
+	width: 65px;
+	height: 12px;
+	display: inline-block;
+    position: relative;
+    top: 1px;
+	background: url(../assets/images/star_grey.svg);
+	background-size: 100% 100%;
+}
+
+.scorewarp1 i {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: url(../assets/images/star_yellow.svg);
+	height: 12px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	display: block;
+}
