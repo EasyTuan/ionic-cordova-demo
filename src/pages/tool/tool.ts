@@ -8,9 +8,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ToolPage {
 
-
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ToolPage');

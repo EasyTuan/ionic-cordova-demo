@@ -15,25 +15,14 @@ export class NearPeoplePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams ,private http: HttpService) {
     this.result = ""
-    
-        this.http.post("http://api.sanjia-soft.com:8088/apipool",{
-          token:1,
-          method:"getDownloadList",
-          categoryId:1
-        })
-    
-        .subscribe(res => {
-    
-          //返回结果，直接是json形式
-    
-          //this.result = res.lon;
-          console.log(res);
-    
-        }, error => {
-    
-          //错误信息
-    
-        });
+
+    this.http.request("/Store/getStoreDetail",{
+      storeid:285
+    },function(r){
+      console.log(r);
+      alert(JSON.stringify(r));
+    })
+
   }
 
   ionViewDidLoad() {

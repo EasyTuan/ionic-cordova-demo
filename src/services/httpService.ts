@@ -1,30 +1,50 @@
-import {Http, Headers, RequestOptions} from "@angular/http";
+import {Http, Headers} from "@angular/http";
 import {Injectable} from "@angular/core";
 import "rxjs/add/operator/toPromise";
 import "rxjs/Rx";
-import {Observable} from "rxjs";
 import "rxjs/add/operator/catch";
 import "rxjs/add/operator/debounceTime";
 import "rxjs/add/operator/distinctUntilChanged";
 import "rxjs/add/operator/map";
 import "rxjs/add/operator/switchMap";
 import "rxjs/add/observable/throw";
+import { Md5 } from 'ts-md5/dist/md5';
 
 @Injectable()
 export class HttpService {
-    constructor(private http: Http) {
+    DOMAIN:string='http://kidapi.kayou110.com/public/?_url=';       //api连接前缀
+
+    constructor(private http: Http ) {
     }
 
-
-    //post请求
-    post(url: string, body: any): Observable<any> {
-        return this.http.post(url, this.toQueryString(body), {
+    
+    request(method: string,data: any,success: (res:Object)=>void) {
+        data.hmac = this.md5sign(data);
+        console.log(data);
+        return this.http.post(this.DOMAIN+method, this.toQueryString(data), {
             headers: new Headers({
                 "Accept": "application/json",
                 "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
             })
         })
-            .map(res => res.json());
+        .map(res => res.json())
+        .subscribe(res => {
+            success(res);
+        }, 
+        error => {
+            console.log("请求失败："+error);
+        });
+    }
+
+    private md5sign(parm:Object) {
+        var signstr = "";
+        for(var p in parm) {
+            signstr += "+" + parm[p];
+        }
+        signstr = signstr.replace("+", "");
+        //log(signstr);
+        var md5str = Md5.hashStr(signstr);
+        return md5str;
     }
 
 
