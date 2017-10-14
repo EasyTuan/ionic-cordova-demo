@@ -11,6 +11,7 @@ import { NearPeoplePage } from "../home/near-people/near-people";
   templateUrl: 'home.html',
 })
 export class HomePage {
+  
 
   @ViewChild(Slides) slides: Slides; //轮播
 

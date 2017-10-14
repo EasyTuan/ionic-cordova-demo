@@ -1,3 +1,23 @@
 page-tool {
-
+    .carsList ion-col{
+        border-radius: 5px;
+        font-size:1.2rem; 
+        &:nth-child(1){
+            background: #ffd5d5;
+        }
+        &:nth-child(2){
+            background: #f6e1ff;
+        }
+        &:nth-child(3){
+            background: #fff7f7;
+        }
+        &:nth-child(4){
+            background: #ffeeb0;
+        }
+    }
+    .carsList img{
+        width: 40%;
+        display: block;
+        margin: 5px auto;
+    }
 }

@@ -13,5 +13,36 @@
 
 
 
-<ion-content padding>
+<ion-content margin-top>
+  <ion-list *ngFor="let items of items;let i=index;" class="marginBotton0">
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/images/defuser.jpg">
+      </ion-avatar>
+      <h2>{{items.name}}
+        <button ion-button float-right outline *ngIf="items.status" (click)="items.status=!items.status">收起</button>
+        <button ion-button float-right outline *ngIf="!items.status" (click)="items.status=!items.status">展开</button>
+      </h2>
+    </ion-item>
+    <ion-grid text-center class="bgWhite" *ngIf='items.status'>
+        <ion-row class="carsList">
+          <ion-col col-3>
+            <img class="menuImg" src="assets/images/searchcard.png" alt="">
+            单卡查询
+          </ion-col>
+          <ion-col col-3>
+            <img class="menuImg" src="assets/images/collectcard.png" alt="">
+            单卡收藏
+          </ion-col>
+          <ion-col col-3>
+            <img class="menuImg" src="assets/images/cards.png" alt="">
+            套牌广场
+          </ion-col>
+          <ion-col col-3>
+            <img class="menuImg" src="assets/images/mycards.png" alt="">
+            我的套牌
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  </ion-list>
 </ion-content>

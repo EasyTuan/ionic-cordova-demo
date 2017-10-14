@@ -14,13 +14,13 @@ export class NearPeoplePage {
   result: string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams ,private http: HttpService) {
-    this.result = ""
+    this.result = "";
 
     this.http.request("/Store/getStoreDetail",{
       storeid:285
     },function(r){
       console.log(r);
-      alert(JSON.stringify(r));
+      this.result=JSON.stringify(r);
     })
 
   }
