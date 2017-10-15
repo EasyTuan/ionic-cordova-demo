@@ -1,0 +1,33 @@
+<ion-header>
+
+
+  <ion-navbar>
+    <ion-title>帐号密码登录</ion-title>
+    <ion-buttons left>
+      <button ion-button icon-only (click)="onClose()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons right>
+      <button ion-button icon-only>
+        注册
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bgWhite">
+  <ion-item>
+    <ion-input type="number" placeholder="请输入手机号"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input type="text" placeholder="请输入密码"></ion-input>
+  </ion-item>
+  <button ion-button block>登录</button>
+  <p>
+    <span float-left>忘记密码</span>
+    <span float-right>手机登录</span>
+  </p>
+</ion-content>

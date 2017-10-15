@@ -23,6 +23,7 @@ import { PkPage } from '../pages/pk/pk';
 import { BbsPage } from '../pages/bbs/bbs';
 
 import { UserPage } from '../pages/user/user';
+import { LoginPage } from '../pages/login/login';
 
 
 
@@ -42,7 +43,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     UserPage,
     CompanyEventsPage,
     NearShopPage,
-    NearPeoplePage
+    NearPeoplePage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -65,7 +67,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     UserPage,
     CompanyEventsPage,
     NearShopPage,
-    NearPeoplePage
+    NearPeoplePage,
+    LoginPage
   ],
   providers: [            //自定义服务在此引入
     StatusBar,

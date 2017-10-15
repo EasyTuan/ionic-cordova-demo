@@ -1,3 +1,4 @@
+import { ToastController } from 'ionic-angular';
 import {Http, Headers} from "@angular/http";
 import {Injectable} from "@angular/core";
 import "rxjs/add/operator/toPromise";
@@ -14,7 +15,7 @@ import { Md5 } from 'ts-md5/dist/md5';
 export class HttpService {
     DOMAIN:string='http://kidapi.kayou110.com/public/?_url=';       //api连接前缀
 
-    constructor(private http: Http ) {
+    constructor(private http: Http,private toastCtrl: ToastController) {
     }
 
     
@@ -32,6 +33,12 @@ export class HttpService {
             success(res);
         }, 
         error => {
+            const toast = this.toastCtrl.create({
+                message: "请求失败："+error,
+                duration: 2000,
+                position: 'top'
+              });
+            toast.present();
             console.log("请求失败："+error);
         });
     }
