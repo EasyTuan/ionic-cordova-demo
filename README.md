@@ -1,4 +1,4 @@
-## 一个基于Ionic3.x cordova的移动APP项目
+## 一个基于Ionic3.x cordova的移动APP demo
 
 ### 前端技术:
 
@@ -15,13 +15,13 @@ npm install -g cordova ionic
 npm install
 
 # 在浏览器中启动项目
-ionic serve
+npm run serve
 
 # 添加android平台
 ionic cordova platform add android
 
 # usb连接安卓手机运行
-ionic cordova run android
+npm run dev
 
 ```
 
