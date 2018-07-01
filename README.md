@@ -109,17 +109,6 @@ npm run build
 	│    ├── theme/                          * ionic主题配置
 	|    |     └── variables.scss            * 主题 Sass 变量
 	|    |
-	|    |-- index.html
-	|
-	|-- www/
-	|    ├── assets/
-	|    |    ├── fonts/
-	|    |    |
-	|    |    ├── icon/
-	|    |    |
-	|    |    └── images/
-	|    |
-	|    └── build/
 	|    └── index.html
 	|
 	├── .editorconfig                       * 代码风格配置文件
