@@ -138,6 +138,7 @@ npm run build
 - 组件间的通信
 - 二级页面的跳转
 - http请求通信
+- app图标以及启动页的配置
 
 <img src="resources/1.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
 
