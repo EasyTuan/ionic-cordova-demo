@@ -7,8 +7,10 @@ import { MyApp } from './app.component';
 import {HttpModule} from "@angular/http";
 import {HttpService} from "../services/httpService";
 
-
 /**自定义组件引入 */
+import { BbsIndexComponent } from '../components/bbs-index/bbs-index';
+
+/**页面引入 */
 import { TabsPage } from '../pages/tabs/tabs';
 import { HomePage } from '../pages/home/home';
 import { CompanyEventsPage } from '../pages/home/company-events/company-events';
@@ -21,6 +23,7 @@ import { ToolPage } from '../pages/tool/tool';
 import { PkPage } from '../pages/pk/pk';
 
 import { BbsPage } from '../pages/bbs/bbs';
+
 
 import { UserPage } from '../pages/user/user';
 import { LoginPage } from '../pages/login/login';
@@ -44,7 +47,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CompanyEventsPage,
     NearShopPage,
     NearPeoplePage,
-    LoginPage
+    LoginPage,
+    BbsIndexComponent
   ],
   imports: [
     BrowserModule,
