@@ -147,3 +147,6 @@ ionic开发文档地址
 
 
 
+# License
+
+[MIT](LICENSE)
