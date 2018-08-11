@@ -139,12 +139,17 @@ npm run build
 
 <img src="resources/5.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
 
+
 ## 3. 其他
 
 ionic开发文档地址
 
 > https://ionicframework.com/docs/
 
+
+## 4. 友情链接
+
+[项目完整版本(基于mui)](https://github.com/EasyTuan/mui-kidApp)
 
 
 # License
