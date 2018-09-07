@@ -10,7 +10,9 @@ Angular4.x + ionic3.x + cordova
 
 ```bash
 
-git clone git@github.com:EasyTuan/ionic-cordova-demo.git(国内镜像加速节点:git@gitee.com:easytuan/ionic-cordova-demo.git)
+git clone git@github.com:EasyTuan/ionic-cordova-demo.git
+
+# 国内镜像加速节点:git@gitee.com:easytuan/ionic-cordova-demo.git
 
 # 全局安装ionic和cordova
 npm install -g cordova ionic
