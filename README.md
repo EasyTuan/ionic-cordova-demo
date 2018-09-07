@@ -1,6 +1,6 @@
 ## 一个基于Ionic3.x cordova的移动APP demo
 
-如遇网络不佳，请移步[国内镜像加速节点](https://gitee.com/easytuan/mui-kidApp)
+如遇网络不佳，请移步[国内镜像加速节点](https://gitee.com/easytuan/ionic-cordova-demo)
 
 ### 前端技术:
 
