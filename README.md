@@ -1,5 +1,7 @@
 ## 一个基于Ionic3.x cordova的移动APP demo
 
+如遇网络不佳，请移步[国内镜像加速节点](https://gitee.com/easytuan/mui-kidApp)
+
 ### 前端技术:
 
 Angular4.x + ionic3.x + cordova
@@ -7,6 +9,11 @@ Angular4.x + ionic3.x + cordova
 ### 项目运行:
 
 ```bash
+
+git clone git@github.com:EasyTuan/ionic-cordova-demo.git
+
+# 国内镜像加速节点
+git clone git@gitee.com:easytuan/ionic-cordova-demo.git
 
 # 安装ionic和cordova
 npm install -g cordova ionic
@@ -43,7 +50,6 @@ npm install -g cordova ionic
 # 安装项目依赖
 npm install
 
-
 ```
 
 ### 1.2 开发过程
@@ -62,7 +68,6 @@ ionic cordova platform add android
 ionic cordova run android
 
 ```
-
 
 ### 1.3 发布
 
@@ -129,16 +134,19 @@ npm run build
 - http请求通信
 - app图标以及启动页的配置
 
-<img src="resources/1.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
+## 部分截图展示
 
-<img src="resources/2.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
+### 首页展示 && 店铺列表
 
-<img src="resources/3.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
+<img src="resources/1.jpg" width="375px" height="667px" /> <img src="resources/2.jpg" width="375px" height="667px">
 
-<img src="resources/4.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
+### 工具 && 我的
 
-<img src="resources/5.jpg" alt="一个基于Ionic3.x cordova的移动APP项目">
+<img src="resources/3.jpg" width="375px" height="667px" /> <img src="resources/4.jpg" width="375px" height="667px" />
 
+### 登录
+
+<img src="resources/5.jpg" width="375px" height="667px" />
 
 ## 3. 其他
 
@@ -146,11 +154,15 @@ ionic开发文档地址
 
 > https://ionicframework.com/docs/
 
-
 ## 4. 友情链接
 
 [项目完整版本(基于mui)](https://github.com/EasyTuan/mui-kidApp)
 
+# 捐助
+
+如有帮助，欢迎打赏
+
+<img src="resources/wechat.jpg" width="200px" /> <img src="resources/alipay.jpg" width="200px" />
 
 # License
 
