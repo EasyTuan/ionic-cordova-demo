@@ -31,9 +31,7 @@ npm run dev
 
 ```
 
-
 项目名：[A Ionic3.x project]，Ionic3.x的移动APP demo。
-
 
 ## 1. 如何运行
 
