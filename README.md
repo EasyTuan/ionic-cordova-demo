@@ -163,7 +163,6 @@ ionic开发文档地址
 
 <img src="resources/wechat.jpg" width="200px" /> <img src="resources/alipay.jpg" width="200px" />
 
-
 # License
 
 [MIT](LICENSE)
