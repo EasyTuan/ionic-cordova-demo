@@ -2,7 +2,7 @@ English | [简体中文](./README.md)
 
 ## A mobile app demo based on Ionic3.x cordova
 
-In case of poor network, please move to [Domestic Mirror Acceleration Node] (https://gitee.com/easytuan/ionic-cordova-demo)
+In case of poor network, please move to [Domestic Mirror Acceleration Node](https://gitee.com/easytuan/ionic-cordova-demo)
 
 ### Front-end technology:
 
@@ -156,7 +156,7 @@ Ionic development document address
 
 ## 4. Links
 
-[Project full version (based on mui)] (https://github.com/EasyTuan/mui-kidApp)
+[Project full version (based on mui)](https://github.com/EasyTuan/mui-kidApp)
 
 # Donation
 
