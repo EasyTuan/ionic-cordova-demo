@@ -1,3 +1,5 @@
+简体中文 | [English](./README_zh-EN.md)
+
 ## 一个基于Ionic3.x cordova的移动APP demo
 
 如遇网络不佳，请移步[国内镜像加速节点](https://gitee.com/easytuan/ionic-cordova-demo)
@@ -106,7 +108,7 @@ npm run build
 	|    |-- pages/                          * 页面
 	|    |
 	│    ├── services/                       * angular主题
-	|    |     └── httpService.ts.scss       * http请求封装
+	|    |     └── httpService.ts            * http请求封装
 	|    |
 	│    ├── theme/                          * ionic主题配置
 	|    |     └── variables.scss            * 主题 Sass 变量
