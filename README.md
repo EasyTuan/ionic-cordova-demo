@@ -1,6 +1,5 @@
 简体中文 | [English](./README_zh-EN.md)
 
-
 ## 一个基于Ionic3.x cordova的移动APP demo
 
 如遇网络不佳，请移步[国内镜像加速节点](https://gitee.com/easytuan/ionic-cordova-demo)
