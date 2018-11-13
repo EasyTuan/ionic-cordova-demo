@@ -162,6 +162,8 @@ Ionic development document address
 
 If you are helpful, welcome to reward
 
+After receiving the sponsorship, I will promptly update the [sponsorship wall](https://caibowen.net/sponsor)
+
 <img src="resources/wechat.jpg" width="200px" /> <img src="resources/alipay.jpg" width="200px" />
 
 # License
