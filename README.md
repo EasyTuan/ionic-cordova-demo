@@ -163,6 +163,8 @@ ionic开发文档地址
 
 如有帮助，欢迎打赏
 
+收到赞助款后，我会及时[更新赞助墙](https://caibowen.net/sponsor)
+
 <img src="resources/wechat.jpg" width="200px" /> <img src="resources/alipay.jpg" width="200px" />
 
 # License
