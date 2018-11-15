@@ -158,9 +158,9 @@ Ionic development document address
 
 [Project full version (based on mui)](https://github.com/EasyTuan/mui-kidApp)
 
-# Donation
+# Sponsorship
 
-If you are helpful, welcome to reward
+If you are helpful, welcome sponsorship
 
 After receiving the sponsorship, I will promptly update the [sponsorship wall](https://caibowen.net/sponsor)
 
