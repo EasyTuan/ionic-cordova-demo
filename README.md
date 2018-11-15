@@ -159,11 +159,11 @@ ionic开发文档地址
 [项目完整版本(基于mui)](https://github.com/EasyTuan/mui-kidApp)
 
 
-# 捐助
+# 赞助
 
-如有帮助，欢迎打赏
+如有帮助，欢迎赞助
 
-收到赞助款后，我会及时[更新赞助墙](https://caibowen.net/sponsor)
+收到赞助款后，我会及时更新[赞助墙](https://caibowen.net/sponsor)
 
 <img src="resources/wechat.jpg" width="200px" /> <img src="resources/alipay.jpg" width="200px" />
 
